@@ -12,7 +12,7 @@
 		</div>
 	</div>
 	<div class="col-lg-3">
-		<input type="button" class="btn btn-success" onclick="javascript:location ='index.php?pg=cadastro'" value="novo">
+		<input type="button" class="btn btn-success" onclick="javascript:location ='index.php?pg=cadastro'" value="Novo">
 	</div>
 </div>
 <div>
@@ -23,25 +23,25 @@
 				<tr>
 					<td>#</td>
 					<td>NOME</td>
-					<td>Sigla</td>
-					<td>Carga Horario</td>
+					<td>CPF</td>
+					<td>Responsável</td>
 					<td>AÇÕES</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>1</td>
-					<td>Topicos Avançados</td>
-					<td>TAI I</td>
-					<td>68hrs</td>
+					<td>José Fabricio Telles</td>
+					<td>031.621.232-67</td>
+					<td>Marilia Gabriella Bittencourt</td>
 					<td><button class="btn btn-default"><i class="fa fa-pencil"></i></button>
 					<button class="btn btn-danger" type="button"><i class="fa fa-trash"></i></button></td>
 				</tr>
 				<tr>
 					<td>2</td>
-					<td>Banco de Dados I</td>
-					<td>BD I</td>
-					<td>60hrs</td>
+					<td>Chritina Alves Castelo Branco</td>
+					<td>188.061.589-00</td>
+					<td>Leandro Leri Suarez</td>
 					<td><button class="btn btn-default"><i class="fa fa-pencil"></i></button>
 					<button class="btn btn-danger" type="button"><i class="fa fa-trash"></i></button></td>
 				</tr>
