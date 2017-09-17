@@ -21,17 +21,19 @@
         <form class="form-signin">
           <h2 class="form-signin-heading" autofocus>SISTU</h2>
             <label for="inputEmail" class="sr-only">Email</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+            <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" required autofocus>
             <label for="inputPassword" class="sr-only">Senha</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Senha" required>
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="remember-me"> Me Lembre
               </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="JavaScript:location = 'usuario.php?pg=home'">Entrar</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="javascript : location = 'usuario.php?home.php'" name="bname">Entrar</button>
           </form>
         </div>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"> 
+
+   </script>
   </body>
 </html>

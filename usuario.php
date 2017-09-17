@@ -165,10 +165,10 @@
                         <a href="usuario.php"><i class="fa fa-fw fa-home"></i> Home</a>
                     </li>
                     <li >
-                        <a href="usuario.php?pg=listagem"><i class="fa fa-fw fa-child"></i> Crianças</a>
+                        <a href="usuario.php?pg=listagem"><i class="fa fa-fw fa-child"></i> Crianças e Adolescentes</a>
                     </li>
                     <li>
-                        <a href="usuario.php?pg=listagem"><i class="fa fa-fw fa-gavel"></i> Conselhereiros</a>
+                        <a href="usuario.php?pg=conselheiros"><i class="fa fa-fw fa-gavel"></i> Conselhereiros</a>
                     </li>
                     <li>
                         <a href="usuario.php?pg=listarusuarios"><i class="fa fa-users" ></i> Usuários</a>

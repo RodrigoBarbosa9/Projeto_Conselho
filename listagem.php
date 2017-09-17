@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-lg-12">
-		<h1>Listagem de Disciplinas</h1>
+		<h1>Listagem de Crianças e Adolescentes</h1>
 	</div>
 </div>
 <div class="row">
@@ -12,7 +12,7 @@
 		</div>
 	</div>
 	<div class="col-lg-3">
-		<input type="button" class="btn btn-success" onclick="javascript:location ='index.php?pg=cadastro'" value="Novo">
+		<input type="button" class="btn btn-success" onclick="javascript:location ='usuario.php?pg=cadastro'" value="Novo">
 	</div>
 </div>
 <div>
@@ -24,6 +24,7 @@
 					<td>#</td>
 					<td>NOME</td>
 					<td>CPF</td>
+					<td>Idade</td>
 					<td>Responsável</td>
 					<td>AÇÕES</td>
 				</tr>
@@ -33,6 +34,7 @@
 					<td>1</td>
 					<td>José Fabricio Telles</td>
 					<td>031.621.232-67</td>
+					<td>15</td>
 					<td>Marilia Gabriella Bittencourt</td>
 					<td><button class="btn btn-default"><i class="fa fa-pencil"></i></button>
 					<button class="btn btn-danger" type="button"><i class="fa fa-trash"></i></button></td>
@@ -41,6 +43,7 @@
 					<td>2</td>
 					<td>Chritina Alves Castelo Branco</td>
 					<td>188.061.589-00</td>
+					<td>8</td>
 					<td>Leandro Leri Suarez</td>
 					<td><button class="btn btn-default"><i class="fa fa-pencil"></i></button>
 					<button class="btn btn-danger" type="button"><i class="fa fa-trash"></i></button></td>
